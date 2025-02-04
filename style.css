@@ -3,7 +3,7 @@
             position: relative; /* Position par défaut */
             text-align: center;
             background-color: #333;
-            padding: 1%; /* Ajoute un espacement intérieu de 10px autour du menu */
+            padding: 1%; /* Ajoute un espacement intérieur autour du menu */
             border-radius: 5px; /* Arrondit légèrement les coins du menu */
         }
         nav ul {
