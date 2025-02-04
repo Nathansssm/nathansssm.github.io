@@ -58,7 +58,7 @@
   /* Style de l'iframe */
   iframe {
     width: 100%; /* Largeur de l'iframe = 100% du conteneur */
-    height: 80vh; /* Hauteur de l'iframe = 80% de la hauteur de la vue */
+    height: 80%; /* Hauteur de l'iframe = 80% de la hauteur de la vue */
     border: none; /* Supprime la bordure */
     border-radius: 8px; /* Coins arrondis */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
