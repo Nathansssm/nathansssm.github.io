@@ -46,7 +46,7 @@
   
   /* Effet au survol des liens */
   nav ul li a:hover {
-    background-color: #3700b3; /* Changement de couleur de fond au survol */
+    background-color: #180a36; /* Changement de couleur de fond au survol */
   }
   
   /* Style du contenu principal */
@@ -61,7 +61,7 @@
     height: 80vh; /* Hauteur de l'iframe = 80% de la hauteur de la vue */
     border: none; /* Supprime la bordure */
     border-radius: 8px; /* Coins arrondis */
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
   }
   
   /* Media Query pour les écrans de petite taille (tablettes et smartphones) */
