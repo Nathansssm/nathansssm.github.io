@@ -1,34 +1,71 @@
 
-        nav { /* Styles pour la barre de navigation */
-            position: relative; /* Position par défaut */
-            text-align: center;
-            background-color: #333;
-            padding: 1%; /* Ajoute un espacement intérieur autour du menu */
-            border-radius: 5px; /* Arrondit légèrement les coins du menu */
-        }
-        nav ul {
-            list-style: none; /* Supprime les point devant chaque éléments */
-            padding: 0; /* Enlève les marges internes par défaut */
-            margin: 0; /* Enlève les marges externes par défaut */
-            display: flex; /* Affiche les éléments en ligne sur une seule ligne */
-            justify-content: center; /* Centre les éléments horizontalement */
-        }
-        nav ul li {
-            margin: 0 10px; /* Ajoute un espacement de 10px entre chaque élément du menu */
-        }
-        nav ul li a { /* Styles des liens de navigation */
-            color: white; /* Définit la couleur du texte en blanc */
-            text-decoration: none; /* Supprime le soulignement des liens */
-            padding: 8px 12px; /* Ajoute un espace intérieur aux liens */
-            display: block; /* Permet de rendre toute la zone du lien cliquable */
-            background-color: #555; /* Couleur de fond gris foncé pour les liens */
-            border-radius: 3px; /* Arrondit légèrement les coins des liens */
-            transition: background-color 0.3s; /* Ajoute un effet de transition en 0.3s sur la couleur de fond */
-        }
-        nav ul li a:hover {
-            background-color: #777; /* Change la couleur de fond en gris clair au survol */
-        }
-        header {
-            text-align: center; /* Centre le titre du site */
-            margin-top: 20px;  /* Ajoute un espace au-dessus du titre */
-        }
+        /* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #6200ea;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 0.5rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #3700b3;
+  }
+  
+  main {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 80vh;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    iframe {
+      height: 60vh;
+    }
+  }
