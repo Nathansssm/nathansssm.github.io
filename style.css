@@ -10,7 +10,7 @@
   body {
     font-family: Arial, sans-serif; /* Police de caractères */
     background-color: #f4f4f9; /* Couleur de fond */
-    color: #fc0000; /* Couleur du texte */
+    color: #333; /* Couleur du texte */
     display: flex; /* Utilisation de Flexbox pour la mise en page */
     flex-direction: column; /* Disposition en colonne (header en haut, main en dessous) */
     min-height: 100vh; /* Hauteur minimale de la page = 100% de la hauteur de la vue (viewport height) */
@@ -18,7 +18,7 @@
   
   /* Style de l'en-tête */
   header {
-    background-color: #4d4b4f; /* Couleur de fond du header */
+    background-color: #4e4658; /* Couleur de fond du header */
     color: white; /* Couleur du texte dans le header */
     padding: 1rem; /* Espacement intérieur */
   }
