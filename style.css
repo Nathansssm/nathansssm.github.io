@@ -81,7 +81,12 @@
     }
   
     /* Réduction de la hauteur de l'iframe pour les petits écrans */
+    #header {height:40vh;overflow-x: hidden;
+      overflow-y: auto;}
+    h1{font: 1.2rem "Arial";}
+    ul li a {font-size: smaller;}
     iframe {
       height: 60vh; /* Hauteur de l'iframe = 60% de la hauteur de la vue */
     }
+    #footer{height: (vh);}
   }
