@@ -11,6 +11,7 @@
     color: #333; /* Couleur du texte */
     display: flex; 
     flex-direction: column; /* Disposition en colonne (header en haut, main en dessous) */
+    height:100%;
     min-height: 100vh; /* Hauteur minimale de la page = 100% de la hauteur de la vue (viewport height) */
   }
   
